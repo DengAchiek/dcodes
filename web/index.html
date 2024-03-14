@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <img class="logo" src="images/logo1.png">
+        <a class="active" href="#"><i class="fa fa-fw fa-home"></i>Home</a>
+        <a href="#"><i class="fa fa-fw fa-search"></i>Blog</a>
+        <a href="#"><i class="fa fa-fw fa-envelope"></i>About</a>
+        <input type="text" placeholder="Search..">
+        
+      </div>
+
+      <!--content -->
+      <div class="content">
+        <h1>Good Morning World</h1>
+        <p>This page shares my best articles to read on topics like health, happiness, creativity, productivity and more. <br>
+            The central question that drives my work is, “How can we live better?” To answer that question, <br>
+            I like to write about science-based ways to solve practical problems.</p>
+      </div>
+
+      <!--creating  a blog -->
+      <div class="row">
+        <div class="leftcolumn">
+          <div class="card">
+            <h2>TITLE HEADING</h2>
+            <h5>Title description, Dec 7, 2017</h5>
+            <div class="fakeimg2" style="height:200px;"><img src="images/b7.jpg" alt=""></div>
+            <p><p>This page shares my best articles to read on topics like health, happiness, creativity, productivity and more.<br>
+                The central question that drives my work is, “How can we live better?”<br>
+                To answer that question, I like to write about science-based ways to solve practical problems.</p></p>
+          </div>
+          <div class="card">
+            <h2>TITLE HEADING</h2>
+            <h5>Title description, Sep 2, 2017</h5>
+            <div class="fakeimg3" style="height:200px;"><img src="images/h1.jpg" alt=""></div>
+            <p><p>This page shares my best articles to read on topics like health, happiness, creativity, productivity and more.<br>
+                The central question that drives my work is, “How can we live better?”<br>
+                To answer that question, I like to write about science-based ways to solve practical problems.</p></p>
+          </div>
+          <div class="card">
+            <h2>TITLE HEADING</h2>
+            <h5>Title description, Sep 2, 2017</h5>
+            <div class="fakeimg3" style="height:200px;"><img src="images/h1.jpg" alt=""></div>
+            <p><p>This page shares my best articles to read on topics like health, happiness, creativity, productivity and more.<br>
+                The central question that drives my work is, “How can we live better?”<br>
+                To answer that question, I like to write about science-based ways to solve practical problems.</p></p>
+          </div>
+        </div>
+        <div class="rightcolumn">
+            <div class="card">
+              <h2>About Me</h2>
+              <div class="fakeimg1" style="height:100px;"><img src="images/hero.jpg" alt=""></div>
+              <p><p>This page shares my best articles to read on topics like health, happiness, creativity, productivity and more.<br>
+                The central question that drives my work is, “How can we live better?”<br>
+                To answer that question, I like to write about science-based ways to solve practical problems.</p></p>
+            </div>
+            <div class="card">
+              <h3>Popular Post</h3>
+              <div class="fakeimg"><img src="images/b3.jpg" alt=""></div><br>
+              <div class="fakeimg"><img src="images/b5.jpg" alt=""></div><br>
+              <div class="fakeimg"><img src="images/b4.jpg" alt=""></div>
+            </div>
+            <div class="card">
+              <h3>Follow Me</h3>
+              <p>This page shares my best articles to read on topics like health, happiness, creativity, productivity and more.<br>
+                 The central question that drives my work is, “How can we live better?”<br>
+                 To answer that question, I like to write about science-based ways to solve practical problems.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-----Login and registration form -->
+        <h2>Login</h2>
+
+            <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+            <div id="id01" class="modal">
+            
+            <form class="modal-content animate" action="/action_page.php" method="post">
+                <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                <img src="img_avatar2.png" alt="Avatar" class="avatar">
+                </div>
+
+                <div class="container">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required><br>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required><br>
+                    
+                <button type="submit">Login</button>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+                </div>
+                
+
+                <div class="container" style="background-color:#f1f1f1">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                <a href="form.html">Register</a>
+                <span class="psw">Forgot <a href="#">password?</a></span>
+                </div>
+            </form>
+            </div>
+
+
+
+
+
+
+
+      <footer>
+        <p>Created By:<a href="#">DcodeLab</a><img class="logo" src="images/logo1.png"></p>
+      </footer>
+    
+</body>
+</html>

@@ -1,0 +1,418 @@
+.navbar {
+    width: 100%;
+    /*background-image: url('images/b5.jpg'); */
+    background-color: #e4e9f4;
+    overflow: auto;
+  }
+  
+  /* Navigation links */
+  .navbar a {
+    float: left;
+    padding: 6px;
+    color: rgb(2, 2, 2);
+    display: block;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-size: 17px;
+    width: 10%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center; /* If you want the text to be centered */
+  }
+  .navbar input[type = text]{
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 4px;
+    margin-right: 10px;
+    font-size: 17px;
+  }
+  .navbar a:hover {
+    background-color: #1155dc;
+  }
+  
+  /* Style the current/active link */
+  .navbar a.active {
+    background-color: #075ced;
+  }
+  
+  /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left; /* If you want the text to be left-aligned on small screens */
+    }
+  }
+  .content{
+    background-image: url("images/b7.jpg");
+   font-size: large;
+   text-align: center;
+   position: relative;
+   align-items: center;
+   padding: 6px;
+   
+  }
+  .content h1{
+    color: #075ced;
+    padding: 0;
+  }
+  .content p{
+    color: white;
+  }
+  footer{
+    text-align: center;
+    padding: 10px;
+  }
+  .header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+  }
+  .leftcolumn {
+    float: left;
+    width: 60%;
+    text-align: center;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+  
+  /* Fake image */
+  .fakeimg {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 20px;
+  }
+  .fakeimg1 {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 20px;
+
+  }
+  .fakeimg1 img{
+    width: 100%;
+    height:100px;
+  }
+  .fakeimg2 {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 20px;
+  }
+  .fakeimg2 img{
+    max-width: 100%;
+    height:200px;
+    
+  }
+  .fakeimg3 {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 20px;
+  }
+  .fakeimg3 img{
+    max-width: 100%;
+    height:200px;
+  }
+  .fakeimg1 img{
+    max-width: 100%;
+    height:100px;
+  }
+  .fakeimg img{
+    width: 100%;
+    max-width: 50%;
+    height:100px;
+  }
+  
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+      width: 100%;
+      padding: 0;
+    }
+  }
+  .card{
+    text-align: center;
+    font-size: large;
+  }
+  .logo{
+    float: right;
+    vertical-align: top;
+    width: 70px;
+    height: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+
+  }
+
+
+  /* login css */
+  /* Full-width input fields */
+body {font-family: Arial, Helvetica, sans-serif;
+     
+    
+
+}
+input[type=text], input[type=password] {
+    width: 50%;
+    align-items: center;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #454ef8;
+    color: white;
+    padding: 14px 20px;
+    margin: 4px 0;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  /* Center the image and position the close button */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+  }
+  
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+  .container {
+    padding: 16px;
+  }
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  span.cpsw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+  h3{
+    text-align: center;
+    float: center;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button (x) */
+  .close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+
+/* Registraion form */
+
+
+  
+  .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 29vw;
+    background: white;
+    border-radius: 10px;
+  }
+  
+  .center h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+  }
+  
+  .center form{
+    padding: 0 40px;
+    box-sizing: border-box;
+  }
+  
+  form .txt_field{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+  }
+  
+  .txt_field input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+  }
+  
+  .txt_field label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+  }
+  
+  .txt_field span::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0px;
+    height: 2px;
+    background: #2691d9;
+    transition: .5s;
+  }
+  
+  .txt_field input:focus ~ label,
+  .txt_field input:valid ~ label{
+    top: -5px;
+    color: #2691d9;
+  }
+  
+  .txt_field input:focus ~ span::before,
+  .txt_field input:Valid ~ span::before{
+    width: 100%;
+  }
+  
+  .pass{
+    margin: -5px 0 20px 5px;
+    color: #a6a6a6;
+    cursor: pointer;
+  }
+  
+  .pass:hover{
+    text-decoration: underline;
+  }
+  
+  input[type="Submit"]{
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+  
+  }
+  
+  input[type="Submit"]:hover{
+    background: #2691d9;
+    color: #e9f4fb;
+    transition: .5s;
+  }
+  
+  .signup_link{
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    color: #666666;
+  }
+  
+  .signup_link a{
+    color: #2691d9;
+    text-decoration: none;
+  }
+  
+  .signup_link a:hover{
+    text-decoration: underline;
+  }
+  
+  .HomeAbout{
+    width: 100vw;
+    height: 25vh;
+  }
+  
